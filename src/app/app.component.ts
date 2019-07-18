@@ -6,7 +6,7 @@ import { EmployeeService } from './employee.service';
   styleUrls: [ './app.component.css' ]
 })
 export class AppComponent implements OnInit {
-  name = 'Angular';
+  name = 'Angular, Testing Service, Check Console Please';
    public employees = [];
 
    constructor( public _empservice : EmployeeService ){
